@@ -33,6 +33,7 @@
 
     function CWE_482_665() { // UNUSED_EXPR
         this.foo;
+        this.bar;
     }
 
     function CWE_484() { // SWITCH_CASE_FALL_THROUGH
