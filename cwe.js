@@ -21,6 +21,13 @@
         }
     }
 
+    function CWE_480yyyy() { // BAD_BITWISE_OPERATOR
+        var obj = null;
+        if (obj & obj.prop) {
+            console.log(obj.prop);
+        }
+    }
+
     function CWE_480xx() { // BAD_BITWISE_OPERATOR
         var obj = null;
         if (obj & obj.prop) {
