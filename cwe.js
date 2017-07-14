@@ -4,16 +4,11 @@
         if (x >= 0) {
             y = x;
         } else {
-            y = x + 1;
+            y = x + 3;
         }
     }
 
     function CWE_476() { // NULL_POINTER
-        var obj;
-        var y = obj.x;
-        console.log(y);
-    }
-    function CWE_476ff() { // NULL_POINTER
         var obj;
         var y = obj.x;
         console.log(y);
